@@ -1,0 +1,47 @@
+h1 {
+    color: #3333FF;
+    text-align: center;
+    font-size: 50px;
+}
+body {
+    background-color: #000000;
+}
+hr { 
+    border-style: 3px;
+    border-width: 3px;
+    border-color: white;
+} 
+h2{
+    color: #3333FF;
+    text-align: center;
+}
+h3 {
+    color: #3333FF;
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+    font-size: 20px;
+}
+ol{
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+table, th, td {
+   border: 2px solid white;
+    background-color: #7990F7;
+}
+.china {
+    color: red;
+    font-family: cursive;
+}
+.italy{
+    color: green;
+    font-family: monospace;
+}
+.scotland{
+    color: #ADD8E6;
+    font-family: Verdana;
+}
