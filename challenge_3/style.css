@@ -111,7 +111,29 @@ h3{
     color: #9dc7ff;
     border: 8px solid #1A7DFF;
     background-color: #9DC7FF;
-    margin-left: 229px;
+    margin-left: 430px;
+    margin-right: 8px;
+}
+.thumbnail2 {
+    float: left;
+    width: 300px;
+    padding: 5px;
+    border-radius: 25px;
+    color: #9dc7ff;
+    border: 8px solid #1A7DFF;
+    background-color: #9DC7FF;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.thumbnail3 {
+    float: left;
+    width: 300px;
+    padding: 5px;
+    border-radius: 25px;
+    color: #9dc7ff;
+    border: 8px solid #1A7DFF;
+    background-color: #9DC7FF;
+    margin-left: 8px;
 }
 .normal {
     float: right;
