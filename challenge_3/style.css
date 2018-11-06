@@ -28,18 +28,19 @@ h1 {
     font-family: Snell Roundhand, cursive;
     text-shadow: 1px 1px 0px #EDEDED, 4px 4px 4px rgba(0,0,0,.25);
     font-size: 60px;
-    background: linear-gradient(#004299, #1a7dff, #9dc7ff);
+    background: linear-gradient(#004299, #1A7Dff, #9DC7FF);
     }
 .gamingimg {
     padding: 0px;
-    border: 10px solid #1a7dff;
+    border: 10px solid #1A7DFF;
     margin: 10px;
 }
 .image {
-    padding: 2px;
-    border: 10px solid #1a7dff;
+    padding: 8px;
+    border: 10px solid #1A7DFF;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    
 }
 button {
     border-radius: 25px;
@@ -51,21 +52,9 @@ button {
     padding-bottom: 2px;
     text-align: center;
     width: 200px;
-    background: linear-gradient(#004299, #1a7dff, #9dc7ff);
+    background: linear-gradient(#004299, #1A7DFF, #9DC7FF);
     text-shadow: 1px 1px 0px #EDEDED, 4px 4px 4px rgba(0,0,0,.25);
     color: black;
-}
-table, td{
-    border-radius: 25px;
-    width: 630px;
-    color: #9dc7ff;
-    border: 4px solid #1a7dff;
-    padding: 4px;
-    background-color: #9dc7ff;
-    margin: 4px;
-}
-.center {
-    text-align: center;
 }
 h2 {
     border-radius: 25px;
@@ -77,17 +66,55 @@ h2 {
     padding-bottom: 2px;
     text-align: center;
     width: 200px;
-    background: linear-gradient(#800000, #ff0000, #ff9999);
+    background: linear-gradient(#800000, #FF0000, #FF9999);
     text-shadow: 1px 1px 0px #EDEDED, 4px 4px 4px rgba(0,0,0,.25);
     color: black;
 }
-hr { 
-    border-style: 3px;
+hr {
     border-width: 3px;
     border-color: black;
 } 
 p {
-    text-align: center;
-    font-size: 35px;
-    line-height: .1px;
+    text-align: left;
+    font-size: 18px;
+}
+h3{
+    font-family: Snell Roundhand, cursive;
+    text-shadow: 1px 1px 0px #EDEDED, 4px 4px 4px rgba(0,0,0,.25);
+    font-size: 40px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color:#A9A9A9;
+    text-align: left;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    background-color:#A5A5A5;
+    text-align: left;
+}
+.row {
+    content: "";
+    display: flex;
+}
+.thumbnail {
+    float: left;
+    width: 300px;
+    padding: 5px;
+    border-radius: 25px;
+    color: #9dc7ff;
+    border: 8px solid #1A7DFF;
+    background-color: #9DC7FF;
+    margin-left: 229px;
+}
+.normal {
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
