@@ -1,0 +1,58 @@
+p {
+    font-size: 12px;
+}
+span {
+    font-weight: normal;
+    font-size: 50%;
+}
+.pink {
+    background-color: pink;
+}
+.aqua {
+    background-color: #7FFFD4;
+}
+.lemon {
+    background-color: #FFF44F; 
+}
+.grape {
+    background-color: #6F2DA8;
+}
+h1 {
+    color: orange;
+}
+.main {
+    background-color: #ADD8E6;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.border {
+    border-style: dotted;
+    border-color: #32CD32;
+    border-width: 3px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Helvetica, Sans-Serif;
+}
+.feature {
+    color: red;
+}
+.nounderline {
+    text-decoration: none;
+}
+.penguin {
+    background-image: url("http://goo.gl/e2x4ZK");
+    background-repeat: no-repeat;
+    border-style: dotted;
+    border-color: #32CD32;
+    border-width: 3px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 196px;
+}
+a:link {
+    text-decoration: none;
+}
